@@ -6,6 +6,8 @@ $(document).ready(function(){
   var positionHighestSequence = 1;
   var i = 0;
 
+  $("#calc").prop("disabled", false);
+
   $('#calc').click(function(){
     for (i=1; i <= numberTest; i++){
       number = i;
@@ -26,8 +28,12 @@ $(document).ready(function(){
    console.log('highestSequence: ', highestSequence );
    console.log('positionhighestSequence: ', positionHighestSequence );
 
+   $("#calc").prop("disabled", true);
+
    $("#output").html("O número inteiro positivo abaixo de 1 milhão que produz a sequência com a maioria dos elementos é o número: <strong>"+positionHighestSequence+"</strong>, e o número de etapas é de <strong>"+highestSequence+"</strong> etapas.");
   });
+
+ 
  
     
   
