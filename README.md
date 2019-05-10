@@ -2,6 +2,8 @@
 Fonte
 *http://en.wikipedia.org/wiki/Collatz_conjecture*
 
+Linguagem JS utilizada | Jquery
+
 **pt-BR**:
 A seguinte sequência iterativa é definida pelo conjunto de inteiros positivos onde:
 
