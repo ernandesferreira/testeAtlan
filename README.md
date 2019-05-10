@@ -16,7 +16,7 @@ O que pode ser observado dessa sequência (começando no 13 e terminando no 1) �
 
 Pergunta: Qual inteiro positivo abaixo de 1 milhão, produz a sequencia com mais items?
 
-##### Para saber rodar a aplicação faça o seguinte
+##### Para rodar a aplicação faça o seguinte
 
 #### Clone o projeto
 git clone https://github.com/ernandesferreira/testeAtlan.git
